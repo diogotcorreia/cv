@@ -1,0 +1,4 @@
+baseURL = 'https://cv.diogotc.com'
+languageCode = 'en-us'
+title = 'CV | Diogo Correia'
+disableKinds = ["taxonomy", "term"]

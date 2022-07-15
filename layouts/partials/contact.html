@@ -1,0 +1,49 @@
+<div class="cv-contact">
+  <h2 class="cv-sidebar-heading">Contacto</h2>
+  {{ with .email }}
+    <div class="cv-contact-item">
+      <a href="mailto:{{ . }}">
+        <i class="fa-solid fa-envelope"></i>
+        {{ . }}
+      </a>
+    </div>
+  {{ end }}
+  {{ with .phone }}
+    <div class="cv-contact-item">
+      <a href="tel:{{ . }}">
+        <i class="fa-solid fa-phone"></i>
+        {{ . }}
+      </a>
+    </div>
+  {{ end }}
+  {{ with .location }}
+    <div class="cv-contact-item">
+      <i class="fa-solid fa-location-pin"></i>
+      {{ . }}
+    </div>
+  {{ end }}
+  {{ with .website }}
+    <div class="cv-contact-item">
+      <a href="https://{{ . }}" target="_blank">
+        <i class="fa-solid fa-house-chimney"></i>
+        {{ . }}
+      </a>
+    </div>
+  {{ end }}
+  {{ with .github }}
+    <div class="cv-contact-item">
+      <a href="https://github.com/{{ . }}" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        @{{ . }}
+      </a>
+    </div>
+  {{ end }}
+  {{ with .linkedin }}
+    <div class="cv-contact-item">
+      <a href="https://linkedin.com/in/{{ . }}" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        @{{ . }}
+      </a>
+    </div>
+  {{ end }}
+</div>

@@ -1,0 +1,40 @@
+<div class="cv-projects">
+  <h2>
+    <i class="fa-solid fa-paintbrush"></i>
+    Projetos
+  </h2>
+  {{ range . }}
+    <div class="cv-projects-item">
+      <div class="cv-projects-item-header">
+        <div class="cv-projects-item--name">
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+              {{ .name | markdownify }}
+              <i class="fa-solid fa-link"></i>
+            </a>
+          {{ else }}
+            {{ .name | markdownify }}
+          {{ end }}
+        </div>
+        <div class="cv-projects-item--info">
+          <div>
+            <i class="fa-solid fa-calendar-days"></i>
+            {{ .date | markdownify }}
+          </div>
+          <div>
+            {{ with .techstack }}
+              <i class="{{ .icon }}"></i>
+              {{ .name | markdownify }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="cv-projects-item-description">
+        {{ .description | markdownify }}
+      </div>
+    </div>
+  {{ end }}
+  <p>
+    <em>... e muitos outros pequenos projetos</em>
+  </p>
+</div>

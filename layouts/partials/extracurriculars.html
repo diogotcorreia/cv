@@ -1,0 +1,20 @@
+<div class="cv-extracurriculars">
+  <h2>
+    <i class="fa-solid fa-shapes"></i>
+    Extra Curriculares
+  </h2>
+  {{ range . }}
+    <div class="cv-extracurriculars-item">
+      {{ if .link }}
+        <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+          <i class="{{ .icon }}"></i>
+          <span>{{ .name | markdownify }}</span>
+          <i class="fa-solid fa-link"></i>
+        </a>
+      {{ else }}
+        <i class="{{ .icon }}"></i>
+        <span>{{ .name | markdownify }}</span>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

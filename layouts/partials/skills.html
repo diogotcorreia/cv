@@ -1,0 +1,27 @@
+<div class="cv-skills">
+  <h2 class="cv-sidebar-heading">Skills</h2>
+  {{ range . }}
+    <div class="cv-skills-section">
+      <h3 class="cv-skills-section-title">{{ .title }}</h3>
+      {{ range .entry }}
+        <div class="cv-skills-entry">
+          <p class="cv-skills-entry--name">{{ .name }}</p>
+          <span class="cv-skills-entry--rating">
+            {{ $rating := .rating }}
+            {{ range $i := (seq 1 5) }}
+              {{ if (le $i $rating) }}
+                <i
+                  class="fa-solid fa-circle cv-skills-entry--rating-circle__active"
+                ></i>
+              {{ else }}
+                <i
+                  class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"
+                ></i>
+              {{ end }}
+            {{ end }}
+          </span>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

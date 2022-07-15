@@ -1,0 +1,156 @@
+name: Diogo Torres Correia
+tagline: Programador e entusiasta. Estudante de Engenharia Informática. Atleta federado.
+
+sidebar:
+  contact:
+    email: me@diogotc.com
+    # phone: "+351 912 345 678"
+    location: "Lisboa, Portugal"
+    website: diogotc.com
+    github: diogotcorreia
+    linkedin: diogotcorreia
+  skills:
+    - title: Programação
+      entry:
+        - name: JavaScript
+          rating: 5
+        - name: React
+          rating: 4
+        - name: NodeJS & Express
+          rating: 4
+        - name: HTML/CSS
+          rating: 4
+        - name: Java
+          rating: 4
+        - name: Python
+          rating: 3
+        - name: Vue
+          rating: 3
+        - name: Rust
+          rating: 2
+        - name: PHP
+          rating: 1
+        - name: Spring
+          rating: 1
+    - title: Sistemas Operativos
+      entry:
+        - name: Linux
+          rating: 4
+        - name: Windows
+          rating: 3
+        - name: MacOS
+          rating: 1
+    - title: Ferramentas
+      entry:
+        - name: Git
+          rating: 4
+        - name: Docker
+          rating: 3
+    - title: Línguas
+      entry:
+        - name: Português
+          rating: 5
+        - name: Inglês
+          rating: 4
+  opensource:
+    title: "Contribuições nos seguintes projetos:"
+    contributions:
+      - name: Strapi
+        link: https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia
+        description: "Small Enhancements, Bug Fixes, Security Vulnerability Patching, Translations"
+      - name: STAYAWAY COVID
+        link: https://github.com/stayawayinesctec/stayaway-app/pulls?q=author%3Adiogotcorreia
+        description: "Dark Mode"
+      - name: Vuepress
+        link: https://github.com/vuejs/vuepress/pulls?q=author%3Adiogotcorreia
+        description: "Bug Fixes"
+      - name: Listmonk
+        link: https://github.com/knadh/listmonk/issues?q=author%3Adiogotcorreia
+        description: "Translations"
+      - name: Umami
+        link: https://github.com/mikecao/umami/pulls?q=author%3Adiogotcorreia
+        description: "Translations"
+
+sections:
+  education:
+    - name: "Licenciatura em Engenharia Informática e de Computadores"
+      location: "Instituto Superior Técnico, Lisboa"
+      date: "2022-2023 _(esperado)_"
+  jobs:
+    - name: "Full Stack Developer"
+      location: "DASI, IST, Lisboa"
+      date: "Abril 2021 - Presente"
+  projects:
+    - name: Resumos LEIC
+      date: "2021 - Presente"
+      link: https://resumos.leic.pt
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React (GatsbyJS); Markdown"
+      description: >-
+        Um site totalmente _open source_, dedicado à criação de resumos
+        focados nas disciplinas da Licenciatura em Engenharia Informática
+        e de Computadores no Instituto Superior Técnico, aumentando o
+        aproveitamento académico dos alunos.
+        Conta, atualmente, com mais de 20k visualizações mensais.
+    - name: Triton - Minecraft Plugin
+      date: "2016 - Presente"
+      link: https://github.com/tritonmc/Triton
+      techstack:
+        icon: "fa-brands fa-java"
+        name: "Java; SpigotMC API"
+      description: >-
+        Um plugin para Minecraft que interceta _network packets_ à procura de
+        _placeholders_, substituindo-os por mensagens traduzidas na língua
+        do utilizador. O projeto, escrito totalmente em Java, conta com
+        mais de 100 classes e 7000+ linhas de código.
+    - name: TWIN - Triton Web INterface
+      date: "2019 - Presente"
+      link: https://twin.rexcantor64.com/demo
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "JavaScript; React; NodeJS"
+      description: >-
+        Uma _web app_ para configurar o plugin Triton. Feita com React,
+        Redux e React Router, permite uma configuração fácil, evitando a
+        necessidade de editar manualmente os ficheiros JSON de configuração.
+    - name: Craftathon
+      date: "2017 / 2018"
+      link: https://craftathon.org
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "NodeJS; PHP"
+      description: >-
+        Configuração da integração dos bilhetes com PayPal, em PHP na primeira
+        edição e em NodeJS na segunda, para o Craftathon, um evento de
+        caridade americano.
+    - name: Livraria e Papelaria Espaço
+      date: "2021 - Presente"
+      link: https://lpespaco.pt
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React (NextJS); NodeJS (Strapi)"
+      description: >-
+        Loja online feita com NextJS e Strapi, para uma livraria em Algés.
+        Além da loja online, foi também feito um programa interno para
+        agilizar tarefas repetitivas (introdução de produtos no programa
+        de faturação), salvando assim dezenas de horas de trabalho manual.
+    - name: Portugal Ultra Triathlon
+      date: "Maio / Junho 2018"
+      techstack:
+        icon: "fa-brands fa-php"
+        name: "PHP; HTML / CSS"
+      description: >-
+        O PUT foi um evento de caridade, destinado a angariar fundos para
+        4 associações portuguesas ligadas ao desporto. O website e o
+        sistema de angariação de fundos foi feito em HTML/CSS e PHP.
+  extracurriculars:
+    - name: Instrutor de Informática I e Web I no AfterSchool by TreeTree2
+      link: https://treetree2.school/
+      icon: "fa-solid fa-chalkboard-user"
+    - name: Olimpíadas da Informática 2020
+      icon: "fa-solid fa-display"
+    - name: Olimpíadas da Física 2019
+      icon: "fa-solid fa-atom"
+    - name: Atleta Federado na Federação Portuguesa de Atletismo
+      icon: "fa-solid fa-person-running"

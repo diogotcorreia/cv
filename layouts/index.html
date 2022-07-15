@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <main>
+    {{ with .Site.Data.content }}
+      {{ partial "cv.html" . }}
+    {{ end }}
+  </main>
+{{ end }}
