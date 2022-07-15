@@ -7,6 +7,10 @@
       classes.add("dark");
     }
   }
+
+  if (window.matchMedia("(prefers-color-scheme: dark)")) {
+    toggleDarkMode();
+  }
 </script>
 <div class="toolbar">
   <button class="theme-toggle" onclick="toggleDarkMode()">
