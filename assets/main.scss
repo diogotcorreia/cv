@@ -168,6 +168,8 @@ body {
 }
 
 .cv-sections {
+  /* Set background again to fix positioning artifacts when printing to PDF */
+  background-color: var(--bodyBgColor);
   padding: 1em 2.5em;
 
   h2 {
