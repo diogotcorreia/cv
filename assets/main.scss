@@ -1,3 +1,4 @@
+$backgroundLight: #fff;
 $accentColorLight: #0b3948;
 $headerBgColorLight: #0b3948;
 $headerTextColorLight: #fff;
@@ -6,6 +7,16 @@ $sidebarTextColorLight: #000;
 $sidebarSkillsBgColorLight: #8d9da7;
 $bodyBgColorLight: #fff;
 $bodyTextColorLight: #000;
+
+$backgroundDark: #1b1b1b;
+$accentColorDark: #98bed5;
+$headerBgColorDark: #0b3948;
+$headerTextColorDark: #eceff4;
+$sidebarBgColorDark: #232b2e;
+$sidebarTextColorDark: #eceff4;
+$sidebarSkillsBgColorDark: #303c40;
+$bodyBgColorDark: #1b1b1b;
+$bodyTextColorDark: #eceff4;
 
 @mixin breakpoint-sm {
   @media only screen and (max-width: 649px) {
@@ -19,6 +30,7 @@ $bodyTextColorLight: #000;
 }
 
 html {
+  --background: #{$backgroundLight};
   --accentColor: #{$accentColorLight};
   --headerBgColor: #{$headerBgColorLight};
   --headerTextColor: #{$headerTextColorLight};
@@ -27,11 +39,37 @@ html {
   --sidebarSkillsBgColor: #{$sidebarSkillsBgColorLight};
   --bodyBgColor: #{$bodyBgColorLight};
   --bodyTextColor: #{$bodyTextColorLight};
+
+  background: var(--background);
+
+  .hide-dark {
+    display: none;
+  }
+}
+
+html.dark {
+  --background: #{$backgroundDark};
+  --accentColor: #{$accentColorDark};
+  --headerBgColor: #{$headerBgColorDark};
+  --headerTextColor: #{$headerTextColorDark};
+  --sidebarBgColor: #{$sidebarBgColorDark};
+  --sidebarTextColor: #{$sidebarTextColorDark};
+  --sidebarSkillsBgColor: #{$sidebarSkillsBgColorDark};
+  --bodyBgColor: #{$bodyBgColorDark};
+  --bodyTextColor: #{$bodyTextColorDark};
+
+  .hide-dark {
+    display: unset;
+  }
+  .hide-light {
+    display: none;
+  }
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
+  margin-bottom: 4em;
 }
 
 .cv {
@@ -189,10 +227,34 @@ body {
   }
 }
 
+button,
 a {
   text-decoration: none;
   color: var(--accentColor);
   font-weight: bold;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.toolbar {
+  max-width: 800px;
+  margin: 2em auto 1em;
+
+  display: flex;
+  font-size: 1.2em;
+
+  button {
+    font-size: inherit;
+  }
+
+  button,
+  a {
+    margin: 0 1em;
+  }
 }
 
 @media print {
@@ -201,5 +263,8 @@ a {
   }
   .cv {
     box-shadow: none;
+  }
+  .toolbar {
+    display: none;
   }
 }

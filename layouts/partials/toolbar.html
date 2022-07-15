@@ -1,0 +1,33 @@
+<script>
+  function toggleDarkMode() {
+    const classes = document.querySelector("html").classList;
+    if (classes.contains("dark")) {
+      classes.remove("dark");
+    } else {
+      classes.add("dark");
+    }
+  }
+</script>
+<div class="toolbar">
+  <button class="theme-toggle" onclick="toggleDarkMode()">
+    <span class="hide-dark">
+      <i class="fa-solid fa-sun"></i>
+    </span>
+    <span class="hide-light">
+      <i class="fa-solid fa-moon"></i>
+    </span>
+    Toggle theme
+  </button>
+  <div style="flex-grow: 1;"></div>
+  <a
+    href="https://github.com/diogotcorreia/cv"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i class="fa-brands fa-github"></i>
+    Source code
+  </a>
+  <button class="print-button" onclick="window.print()">
+    <i class="fa-solid fa-print"></i>
+  </button>
+</div>

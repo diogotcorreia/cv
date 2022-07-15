@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ partial "toolbar.html" }}
   <main>
     {{ with .Site.Data.content }}
       {{ partial "cv.html" . }}
