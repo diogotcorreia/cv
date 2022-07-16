@@ -198,6 +198,16 @@ body {
     font-size: 1.3em;
     text-align: right;
   }
+
+  @include breakpoint-xs {
+    grid-template-columns: 1fr;
+
+    .cv-education-item--name,
+    .cv-jobs-item--name {
+      text-align: left;
+      margin-top: 0.5em;
+    }
+  }
 }
 
 .cv-projects-item {
