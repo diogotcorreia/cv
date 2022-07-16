@@ -1,0 +1,17 @@
+<div class="cv-misc">
+  <h2 class="cv-sidebar-heading">Misc</h2>
+  <ul>
+    {{ range . }}
+      <li class="cv-misc-item">
+        {{ if .link }}
+          <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+            {{ .name | markdownify }}
+            <i class="fa-solid fa-link"></i>
+          </a>
+        {{ else }}
+          {{ .name | markdownify }}
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</div>

@@ -70,12 +70,18 @@ sidebar:
       - name: Umami
         link: https://github.com/mikecao/umami/pulls?q=author%3Adiogotcorreia
         description: "Translations"
+      - name: phhusson's vendor_hardware_overlay
+        link: https://github.com/phhusson/vendor_hardware_overlay/pulls?q=author%3Adiogotcorreia
+        description: "Android Device Overlay"
+  misc:
+    - name: Delegado de Ano LEIC-A (2020 - _Presente_)
+    - name: Top 3 do curso LEIC-A no IST entre alunos a ingressar em 2020
 
 sections:
   education:
     - name: "Licenciatura em Engenharia Informática e de Computadores"
       location: "Instituto Superior Técnico, Lisboa"
-      date: "2020-2023 _(esperado)_"
+      date: "2020 - 2023 _(esperado)_"
   jobs:
     - name: "Full Stack Developer"
       location: "DASI, IST, Lisboa"
@@ -115,7 +121,7 @@ sections:
         Redux e React Router, permite uma configuração fácil, evitando a
         necessidade de editar manualmente os ficheiros JSON de configuração.
     - name: Craftathon
-      date: "2017 / 2018"
+      date: "2017, 2018"
       link: https://craftathon.org
       techstack:
         icon: "fa-brands fa-js"
@@ -136,7 +142,7 @@ sections:
         agilizar tarefas repetitivas (introdução de produtos no programa
         de faturação), salvando assim dezenas de horas de trabalho manual.
     - name: Portugal Ultra Triathlon
-      date: "Maio / Junho 2018"
+      date: "Maio, Junho 2018"
       techstack:
         icon: "fa-brands fa-php"
         name: "PHP; HTML / CSS"
@@ -144,6 +150,18 @@ sections:
         O PUT foi um evento de caridade, destinado a angariar fundos para
         4 associações portuguesas ligadas ao desporto. O website e o
         sistema de angariação de fundos foi feito em HTML/CSS e PHP.
+    - name: Frigu
+      date: "2022"
+      link: https://github.com/diogotcorreia/frigu
+      techstack:
+        icon: "fa-brands fa-rust"
+        name: "Rust; Yew.rs + Axum.rs"
+      description: >-
+        Uma aplicação web, que utiliza Web Assembly no frontend através de Rust,
+        para gerir um pequeno frigorífico comunitário, permitindo manter um histórico
+        das compras de cada utilizador e do seu saldo.
+        A cada _release_ são publicadas imagens Docker automaticamente através
+        de GitHub Actions.
   extracurriculars:
     - name: Instrutor de Informática I e Web I no AfterSchool by TreeTree2
       link: https://treetree2.school/
@@ -154,3 +172,9 @@ sections:
       icon: "fa-solid fa-atom"
     - name: Atleta Federado na Federação Portuguesa de Atletismo
       icon: "fa-solid fa-person-running"
+    - name: Membro do núcleo de estudantes Hackerschool do IST
+      link: https://hackerschool.io
+      icon: "fa-solid fa-microchip"
+    - name: Participante no Advent of Code
+      link: https://github.com/diogotcorreia/advent-of-code
+      icon: "fa-solid fa-tree-christmas"
