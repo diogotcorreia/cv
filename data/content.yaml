@@ -73,6 +73,9 @@ sidebar:
       - name: phhusson's vendor_hardware_overlay
         link: https://github.com/phhusson/vendor_hardware_overlay/pulls?q=author%3Adiogotcorreia
         description: "Android Device Overlay"
+      - name: Firefly-III
+        link: https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia
+        description: "Bug Fixes"
   misc:
     - name: Delegado de Ano LEIC-A (2020 - _Presente_)
     - name: Top 3 do curso LEIC-A no IST entre alunos a ingressar em 2020
