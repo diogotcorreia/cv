@@ -12,7 +12,11 @@
     rel="stylesheet"
   />
   {{ $style := resources.Get "main.scss" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ trim $style.RelPermalink "/" }}" integrity="{{ $style.Data.Integrity }}" />
+  <link
+    rel="stylesheet"
+    href="{{ trim $style.RelPermalink "/" }}"
+    integrity="{{ $style.Data.Integrity }}"
+  />
   <script
     src="https://kit.fontawesome.com/be43f4c56d.js"
     crossorigin="anonymous"
