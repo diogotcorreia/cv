@@ -80,6 +80,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: auto;
 
+  display: flex;
+  flex-direction: column;
+
   header {
     padding: 1em 2em;
     background-color: var(--headerBgColor);
@@ -94,6 +97,8 @@ body {
 }
 
 .cv-body {
+  flex-grow: 1;
+
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -268,5 +273,16 @@ button {
   }
   .toolbar {
     display: none;
+  }
+
+  html {
+    /* hack to set height to 2 A4 pages */
+    height: calc(2 * 297mm - 1px);
+    box-sizing: border-box;
+  }
+  body,
+  main,
+  .cv {
+    height: 100%;
   }
 }
