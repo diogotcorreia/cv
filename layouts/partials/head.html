@@ -11,8 +11,8 @@
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
     rel="stylesheet"
   />
-  {{ $style := resources.Get "main.scss" | toCSS }}
-  <link rel="stylesheet" href="{{ trim $style.RelPermalink "/" }}" />
+  {{ $style := resources.Get "main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ trim $style.RelPermalink "/" }}" integrity="{{ $style.Data.Integrity }}" />
   <script
     src="https://kit.fontawesome.com/be43f4c56d.js"
     crossorigin="anonymous"
