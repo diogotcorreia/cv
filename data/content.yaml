@@ -78,6 +78,8 @@ sidebar:
         description: "Bug Fixes"
   misc:
     - name: Delegado de Ano LEIC-A (2020 - _Presente_)
+    - name: Delegado de Curso LEIC-A (2022/2023)
+    - name: "[Diploma de Excelência Académica LEIC-A (2020/2021)](./documents/academic_excellence_2020_2021_pt.pdf)"
     - name: Top 3 do curso LEIC-A no IST entre alunos a ingressar em 2020
 
 sections:
@@ -166,6 +168,9 @@ sections:
         A cada _release_ são publicadas imagens Docker automaticamente através
         de GitHub Actions.
   extracurriculars:
+    - name: Membro do núcleo Security Team @ Técnico (STT)
+      link: https://sectt.github.io/
+      icon: "fa-solid fa-user-secret"
     - name: Instrutor de Informática I e Web I no AfterSchool by TreeTree2
       link: https://treetree2.school/
       icon: "fa-solid fa-chalkboard-user"
