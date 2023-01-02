@@ -7,17 +7,22 @@
         <div class="cv-skills-entry">
           <p class="cv-skills-entry--name">{{ .name }}</p>
           <span class="cv-skills-entry--rating">
-            {{ $rating := .rating }}
-            {{ range $i := (seq 1 5) }}
-              {{ if (le $i $rating) }}
-                <i
-                  class="fa-solid fa-circle cv-skills-entry--rating-circle__active"
-                ></i>
-              {{ else }}
-                <i
-                  class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"
-                ></i>
+            {{ with .rating }}
+              {{ $rating := . }}
+              {{ range $i := (seq 1 5) }}
+                {{ if (le $i $rating) }}
+                  <i
+                    class="fa-solid fa-circle cv-skills-entry--rating-circle__active"
+                  ></i>
+                {{ else }}
+                  <i
+                    class="fa-solid fa-circle cv-skills-entry--rating-circle__inactive"
+                  ></i>
+                {{ end }}
               {{ end }}
+            {{ end }}
+            {{ with .value }}
+              {{ . }}
             {{ end }}
           </span>
         </div>

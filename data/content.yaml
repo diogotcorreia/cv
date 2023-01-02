@@ -49,9 +49,9 @@ sidebar:
     - title: Línguas
       entry:
         - name: Português
-          rating: 5
+          value: Nativo
         - name: Inglês
-          rating: 4
+          value: C1
   opensource:
     title: "Contribuições nos seguintes projetos:"
     contributions:
