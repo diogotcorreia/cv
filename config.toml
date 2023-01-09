@@ -2,3 +2,14 @@ baseURL = 'https://cv.diogotc.com'
 languageCode = 'en-us'
 title = 'CV | Diogo Correia'
 disableKinds = ["taxonomy", "term"]
+
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    weight = 1
+    [languages.en.params]
+      datasource = 'content.en'
+  [languages.pt]
+    weight = 2
+    [languages.pt.params]
+      datasource = 'content.pt'
