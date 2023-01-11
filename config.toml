@@ -6,10 +6,12 @@ disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = 'en'
 [languages]
   [languages.en]
+    languageName = "English"
     weight = 1
     [languages.en.params]
       datasource = 'content.en'
   [languages.pt]
+    languageName = "Portuguese"
     weight = 2
     [languages.pt.params]
       datasource = 'content.pt'

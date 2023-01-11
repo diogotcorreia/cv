@@ -259,18 +259,21 @@ button {
 
 .toolbar {
   max-width: 800px;
-  margin: 2em auto 1em;
+  margin: 1em auto;
 
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   font-size: 1.2em;
 
   button {
     font-size: inherit;
+    padding: 0;
   }
 
   button,
   a {
-    margin: 0 1em;
+    margin: 1em 1em;
   }
 }
 
