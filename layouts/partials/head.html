@@ -14,7 +14,7 @@
   {{ $style := resources.Get "main.scss" | toCSS | minify | fingerprint }}
   <link
     rel="stylesheet"
-    href="{{ trim $style.RelPermalink "/" }}"
+    href="{{ $style.RelPermalink }}"
     integrity="{{ $style.Data.Integrity }}"
   />
   <script

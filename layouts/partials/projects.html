@@ -1,7 +1,7 @@
 <div class="cv-projects">
   <h2>
     <i class="fa-solid fa-paintbrush"></i>
-    Projetos
+    {{ i18n "section-header.projects" }}
   </h2>
   {{ range . }}
     <div class="cv-projects-item">
@@ -35,6 +35,6 @@
     </div>
   {{ end }}
   <p>
-    <em>... e muitos outros pequenos projetos</em>
+    <em>{{ i18n "projects.footer-message" }}</em>
   </p>
 </div>

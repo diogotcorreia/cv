@@ -22,6 +22,15 @@
     </span>
     Toggle theme
   </button>
+  {{ range $.Site.Home.AllTranslations }}
+    {{ if ne $.Site.Language.Lang .Language.Lang }}
+      <a href="{{ .Permalink }}">
+        <i class="fa-solid fa-language"></i>
+        View in
+        {{ .Language.LanguageName }}
+      </a>
+    {{ end }}
+  {{ end }}
   <div style="flex-grow: 1;"></div>
   <a
     href="https://github.com/diogotcorreia/cv"

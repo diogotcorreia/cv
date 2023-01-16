@@ -1,0 +1,11 @@
+section-header:
+  contact: Contacto
+  skills: Skills
+  open-source: Open Source
+  miscellaneous: Misc
+  education: Educação
+  work: Experiência Profissional
+  projects: Projetos
+  extra-curriculars: Extra Curriculares
+projects:
+  footer-message: "... e muitos outros pequenos projetos"

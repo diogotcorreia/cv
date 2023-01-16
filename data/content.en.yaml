@@ -1,0 +1,190 @@
+name: Diogo Torres Correia
+tagline: Programming Enthusiast. Computer Science Student. Federated Athlete.
+
+sidebar:
+  contact:
+    email: me@diogotc.com
+    # phone: "+351 912 345 678"
+    location: "Lisbon, Portugal"
+    website: diogotc.com
+    github: diogotcorreia
+    linkedin: diogotcorreia
+  skills:
+    - title: Programming
+      entry:
+        - name: JavaScript
+          rating: 5
+        - name: React
+          rating: 4
+        - name: NodeJS & Express
+          rating: 4
+        - name: HTML/CSS
+          rating: 4
+        - name: Java
+          rating: 4
+        - name: Python
+          rating: 3
+        - name: Vue
+          rating: 3
+        - name: Rust
+          rating: 2
+        - name: PHP
+          rating: 1
+        - name: Spring
+          rating: 1
+    - title: Operating Systems
+      entry:
+        - name: Linux
+          rating: 4
+        - name: Windows
+          rating: 3
+        - name: MacOS
+          rating: 1
+    - title: Tools
+      entry:
+        - name: Git
+          rating: 4
+        - name: Docker
+          rating: 3
+    - title: Languages
+      entry:
+        - name: Portuguese
+          value: Native
+        - name: English
+          value: C1
+  opensource:
+    title: "Contributions in the following projects:"
+    contributions:
+      - name: Strapi
+        link: https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia
+        description: "Small Enhancements, Bug Fixes, Security Vulnerability Patching, Translations"
+      - name: STAYAWAY COVID
+        link: https://github.com/stayawayinesctec/stayaway-app/pulls?q=author%3Adiogotcorreia
+        description: "Dark Mode"
+      - name: Vuepress
+        link: https://github.com/vuejs/vuepress/pulls?q=author%3Adiogotcorreia
+        description: "Bug Fixes"
+      - name: Listmonk
+        link: https://github.com/knadh/listmonk/issues?q=author%3Adiogotcorreia
+        description: "Translations"
+      - name: Umami
+        link: https://github.com/mikecao/umami/pulls?q=author%3Adiogotcorreia
+        description: "Translations"
+      - name: phhusson's vendor_hardware_overlay
+        link: https://github.com/phhusson/vendor_hardware_overlay/pulls?q=author%3Adiogotcorreia
+        description: "Android Device Overlay"
+      - name: Firefly-III
+        link: https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia
+        description: "Bug Fixes"
+  misc:
+    - name: Year Delegate LEIC-A (2020 - _Present_)
+    - name: Degree Delegate LEIC-A (2022/2023)
+    - name: "[Academic Excellence Diploma LEIC-A (2020/2021)](./documents/academic_excellence_2020_2021_en.pdf)"
+    - name: Top 3 student in LEIC-A degree amongst students enrolled in 2020/2021
+
+sections:
+  education:
+    - name: "Bachelor in Computer Science and Engineering"
+      location: "Técnico Lisboa, Portugal"
+      date: "2020 - 2023 _(expected)_"
+  jobs:
+    - name: >-
+        Research Initiation Scholarship
+        _Full Stack Developer_
+      location: "DASI, IST, Lisboa"
+      date: "Abril 2021 - Present"
+  projects:
+    - name: Resumos LEIC
+      date: "2021 - Present"
+      link: https://resumos.leic.pt
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React (GatsbyJS); Markdown"
+      description: >-
+        A completely open source website, dedicated to the creation of
+        class notes focused on the courses in the curriculum of the BSc
+        in Computer Science and Engineering at Técnico Lisboa, improving
+        the academic performance of students.
+        Currently, it achieves more than 20k monthly views across all pages.
+    - name: Triton - Minecraft Plugin
+      date: "2016 - Present"
+      link: https://github.com/tritonmc/Triton
+      techstack:
+        icon: "fa-brands fa-java"
+        name: "Java; SpigotMC API"
+      description: >-
+        A Minecraft plugin that intercepts network packets in search of placeholders,
+        replacing them with translated messages in the player's language.
+        The project, which is written in Java, has more than 100 classes and
+        7000+ lines of code.
+    - name: TWIN - Triton Web INterface
+      date: "2019 - Present"
+      link: https://twin.rexcantor64.com/demo
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "JavaScript; React; NodeJS"
+      description: >-
+        A web app to configure the Triton plugin. Made with React, Redux
+        and React Router, it allows for easily configuring the plugin, avoiding
+        the need to manually editing JSON configuration files.
+    - name: Craftathon
+      date: "2017, 2018"
+      link: https://craftathon.org
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "NodeJS; PHP"
+      description: >-
+        Craftathon was an American charity event, where I configured the ticketing
+        system with Paypal. In the first edition, we used PHP, while in the second one
+        we used NodeJS.
+    - name: Livraria e Papelaria Espaço
+      date: "2021 - Present"
+      link: https://lpespaco.pt
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React (NextJS); NodeJS (Strapi)"
+      description: >-
+        An online e-commerce store for a local bookstore, made with NextJS and Strapi.
+        In addition to the online store, I have also made an internal program in
+        order to speedup repetitive tasks, such as adding products to the
+        billing program, saving dozens of manual labor hours.
+    - name: Portugal Ultra Triathlon
+      date: "May, June 2018"
+      techstack:
+        icon: "fa-brands fa-php"
+        name: "PHP; HTML / CSS"
+      description: >-
+        PUT was a charity event with the goal of raising funds to 4 Portuguese
+        associations related to sports. The website and donation system was
+        made with HTML/CSS and PHP.
+    - name: Frigu
+      date: "2022"
+      link: https://github.com/diogotcorreia/frigu
+      techstack:
+        icon: "fa-brands fa-rust"
+        name: "Rust; Yew.rs + Axum.rs"
+      description: >-
+        A web application, developed in Rust and that uses Web Assembly for the frontend,
+        to manage a small community fridge, keeping the transaction history and
+        balance of each user.
+        Docker images are automatically published on every release through GitHub
+        Actions.
+  extracurriculars:
+    - name: Member of Security Team @ Técnico (STT)
+      link: https://sectt.github.io/
+      icon: "fa-solid fa-user-secret"
+    - name: Informatics I and Web I Instructor at AfterSchool by TreeTree2
+      link: https://treetree2.school/
+      icon: "fa-solid fa-chalkboard-user"
+    - name: Portuguese Olympiad in Informatics 2020
+      icon: "fa-solid fa-display"
+    - name: Portuguese Olympiad in Physics 2019
+      icon: "fa-solid fa-atom"
+    - name: Federated Athlete at Portuguese Athletics Federation (2018 - Present)
+      icon: "fa-solid fa-person-running"
+    - name: Member of Hackerschool student group at IST
+      link: https://hackerschool.io
+      icon: "fa-solid fa-microchip"
+    - name: Advent of Code Participant
+      link: https://github.com/diogotcorreia/advent-of-code
+      icon: "fa-solid fa-sleigh"
