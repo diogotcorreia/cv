@@ -27,6 +27,12 @@ sidebar:
         - name: Vue
           rating: 3
         - name: Rust
+          rating: 3
+        - name: C
+          rating: 3
+        - name: C++
+          rating: 2
+        - name: SQL
           rating: 2
         - name: PHP
           rating: 1
@@ -35,7 +41,7 @@ sidebar:
     - title: Sistemas Operativos
       entry:
         - name: Linux
-          rating: 4
+          rating: 5
         - name: Windows
           rating: 3
         - name: MacOS
