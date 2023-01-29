@@ -76,17 +76,19 @@ sidebar:
       - name: Firefly-III
         link: https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia
         description: "Bug Fixes"
-  misc:
-    - name: Year Delegate LEIC-A (2020 - _Present_)
-    - name: Degree Delegate LEIC-A (2022/2023)
-    - name: "[Academic Excellence Diploma LEIC-A (2020/2021)](./documents/academic_excellence_2020_2021_en.pdf)"
-    - name: Top 3 student in LEIC-A degree amongst students enrolled in 2020/2021
+  misc: []
 
 sections:
   education:
-    - name: "Bachelor in Computer Science and Engineering"
+    - name: "Bachelor in Computer Science and Engineering (LEIC-A)"
       location: "Técnico Lisboa, Portugal"
       date: "2020 - 2023 _(expected)_"
+      description: |-
+        - Current average: 18.58/20
+        - Elected Year Delegate (2020 - Present) and Degree Delegate (2022 - Present)
+        - Awarded [Academic Excellence Diploma (2020/2021)](./documents/academic_excellence_2020_2021_en.pdf)
+        - Top 3 amongst students who enrolled in LEIC-A in 2020/2021 (out of ~180)
+        - Member of the University's Pedagogic Council
   jobs:
     - name: >-
         Research Initiation Scholarship

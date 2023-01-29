@@ -199,6 +199,14 @@ body {
     text-align: right;
   }
 
+  .cv-education-item--description,
+  .cv-jobs-item--description {
+    margin-top: 0.2em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: block-inline;
+  }
+
   @include breakpoint-xs {
     grid-template-columns: 1fr;
 

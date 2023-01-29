@@ -76,17 +76,19 @@ sidebar:
       - name: Firefly-III
         link: https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia
         description: "Bug Fixes"
-  misc:
-    - name: Delegado de Ano LEIC-A (2020 - _Presente_)
-    - name: Delegado de Curso LEIC-A (2022/2023)
-    - name: "[Diploma de Excelência Académica LEIC-A (2020/2021)](./documents/academic_excellence_2020_2021_pt.pdf)"
-    - name: Top 3 do curso LEIC-A no IST entre alunos a ingressar em 2020
+  misc: []
 
 sections:
   education:
     - name: "Licenciatura em Engenharia Informática e de Computadores"
       location: "Instituto Superior Técnico, Lisboa"
       date: "2020 - 2023 _(esperado)_"
+      description: |-
+        - Média atual: 18.58/20
+        - Eleito Delegado de Ano (2020 - Presente) e Delegado de Curso (2022 - Presente)
+        - Premiado com [Diploma de Excelência Académica (2020/2021)](./documents/academic_excellence_2020_2021_pt.pdf)
+        - Top 3 do curso entre alunos que ingressaram em 2020/2021
+        - Membro do Conselho Pedagógico do IST
   jobs:
     - name: >-
         Bolsa de Iniciação à Investigação  
