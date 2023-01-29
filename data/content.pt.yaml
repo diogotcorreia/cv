@@ -95,6 +95,13 @@ sections:
         _Full Stack Developer_
       location: "DASI, IST, Lisboa"
       date: "Abril 2021 - Presente"
+      description: |-
+        A DASI é a equipa de desenvolvimento dos Serviços de Informática
+        do IST, à qual me juntei no meu primeiro ano de licenciatura.
+        A equipa é responsável pela gestão do sistema de ensido da instituição,
+        o FenixEdu, assim como outros serviços.  
+        Desenvolvi uma nova versão da API pública, resolvi bugs e fiz
+        melhorias de UX, algumas por iniciativa própria.
   projects:
     - name: Resumos LEIC
       date: "2021 - Presente"
