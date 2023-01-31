@@ -70,6 +70,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   margin-bottom: 4em;
+  text-align: justify;
 }
 
 .cv {
@@ -93,6 +94,10 @@ body {
     h1 {
       text-transform: uppercase;
     }
+  }
+
+  ul {
+    padding-left: 2em;
   }
 }
 
@@ -163,6 +168,10 @@ body {
     font-weight: bold;
   }
 
+  .cv-skills-entry--description {
+    font-weight: normal;
+  }
+
   .cv-skills-entry--rating-circle__active {
     color: var(--accentColor);
   }
@@ -219,7 +228,7 @@ body {
 }
 
 .cv-projects-item {
-  margin-bottom: 1em;
+  margin-bottom: 2.3em;
   .cv-projects-item-header {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -241,10 +250,21 @@ body {
 }
 
 .cv-extracurriculars-item {
-  i:first-child {
-    width: 16px;
+  margin-top: 0.3em;
+  display: inline-grid;
+  grid-template-columns: 24px 1fr;
+  column-gap: 0.3em;
+  align-items: center;
+
+  .cv-extracurriculars-item--icon {
+    width: 24px;
+    height: 24px;
+    font-size: 1.2em;
     text-align: center;
-    margin-right: 0.1em;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   a {
     color: inherit;

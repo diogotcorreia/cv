@@ -5,7 +5,14 @@
       <h3 class="cv-skills-section-title">{{ .title }}</h3>
       {{ range .entry }}
         <div class="cv-skills-entry">
-          <p class="cv-skills-entry--name">{{ .name }}</p>
+          <p class="cv-skills-entry--name">
+            {{ .name }}
+            {{ with .description }}
+              <span class="cv-skills-entry--description">
+                ({{ . }})
+              </span>
+            {{ end }}
+          </p>
           <span class="cv-skills-entry--rating">
             {{ with .rating }}
               {{ $rating := . }}

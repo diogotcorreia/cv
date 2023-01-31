@@ -1,18 +1,21 @@
 <div class="cv-extracurriculars">
-  <h2>
-    <i class="fa-solid fa-shapes"></i>
+  <h2 class="cv-sidebar-heading">
+    <!-- <i class="fa-solid fa-shapes"></i> -->
     {{ i18n "section-header.extra-curriculars" }}
   </h2>
   {{ range . }}
     <div class="cv-extracurriculars-item">
+      <div class="cv-extracurriculars-item--icon">
+        <i class="{{ .icon }}"></i>
+      </div>
       {{ if .link }}
         <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
-          <i class="{{ .icon }}"></i>
-          <span>{{ .name | markdownify }}</span>
-          <i class="fa-solid fa-link"></i>
+          <span>
+            {{ .name | markdownify }}
+            <i class="fa-solid fa-link"></i>
+          </span>
         </a>
       {{ else }}
-        <i class="{{ .icon }}"></i>
         <span>{{ .name | markdownify }}</span>
       {{ end }}
     </div>
