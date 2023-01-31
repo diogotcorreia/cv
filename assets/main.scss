@@ -70,7 +70,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   margin-bottom: 4em;
-  text-align: justify;
 }
 
 .cv {
@@ -185,6 +184,7 @@ body {
   /* Set background again to fix positioning artifacts when printing to PDF */
   background-color: var(--bodyBgColor);
   padding: 1em 2.5em;
+  text-align: justify;
 
   h2 {
     border-bottom: 1px solid;
