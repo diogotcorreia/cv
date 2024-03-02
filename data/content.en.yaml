@@ -214,6 +214,9 @@ sections:
     - name: Member of Security Team @ Técnico (STT)
       link: https://sectt.github.io/
       icon: "fa-solid fa-user-secret"
+    - name: Member of RoyalRoppers at KTH
+      link: https://royalroppers.team/
+      icon: "fa-solid fa-user-secret"
     - name: Informatics I and Web I Instructor at AfterSchool by TreeTree2
       link: https://treetree2.school/
       icon: "fa-solid fa-chalkboard-user"
