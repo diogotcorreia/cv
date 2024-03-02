@@ -14,6 +14,8 @@ sidebar:
       entry:
         - name: JavaScript
           rating: 5
+        - name: Rust
+          rating: 4
         - name: React
           rating: 4
         - name: NodeJS & Express
@@ -25,8 +27,6 @@ sidebar:
         - name: Python
           rating: 3
         - name: Vue
-          rating: 3
-        - name: Rust
           rating: 3
         - name: C
           rating: 3
@@ -49,7 +49,7 @@ sidebar:
     - title: Tools
       entry:
         - name: Git
-          rating: 4
+          rating: 5
         - name: Docker
           rating: 3
     - title: Languages
