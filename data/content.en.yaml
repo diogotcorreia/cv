@@ -198,6 +198,18 @@ sections:
         balance of each user.
         Docker images are automatically published on every release through GitHub
         Actions.
+    - name: IST Delegate Election
+      date: "2023"
+      link: https://github.com/diogotcorreia/ist-delegate-election
+      techstack:
+        icon: "fa-brands fa-rust"
+        name: "Rust; TypeScript/React.js"
+      description: >-
+        An online voting platform used by the Técnico Lisboa's Pedagogical
+        Council for delegate elections, made with Rust and Axum.rs for the
+        backend, and Typescript and React.js for the frontend.
+        It integrate's with the school's OAuth system and avoids storing
+        personal information at all costs.
   extracurriculars:
     - name: Member of Security Team @ Técnico (STT)
       link: https://sectt.github.io/

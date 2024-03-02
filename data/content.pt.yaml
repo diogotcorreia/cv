@@ -198,6 +198,18 @@ sections:
         das compras de cada utilizador e do seu saldo.
         A cada _release_ são publicadas imagens Docker automaticamente através
         de GitHub Actions.
+    - name: IST Delegate Election
+      date: "2023"
+      link: https://github.com/diogotcorreia/ist-delegate-election
+      techstack:
+        icon: "fa-brands fa-rust"
+        name: "Rust; TypeScript/React.js"
+      description: >-
+        Uma plataforma de eleições online usada pelo Conselho Pedagógico do
+        Instituto Superior Técnico para eleições de delegados, feita com
+        Rust e Axum.rs para o backend e Typescript e React.js para o frontend.
+        Integra com o sistema OAuth da escola e evita guardar dados pessoais
+        a todo o custo.
   extracurriculars:
     - name: Membro do núcleo Security Team @ Técnico (STT)
       link: https://sectt.github.io/
