@@ -64,6 +64,9 @@ sidebar:
       - name: Strapi
         link: https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia
         description: "Small Enhancements, Bug Fixes, Security Vulnerability Patching, Translations"
+      - name: Nixpkgs
+        link: https://github.com/NixOS/nixpkgs/pulls?q=author%3Adiogotcorreia
+        description: "Packaging, Bug Fixes, and more"
       - name: STAYAWAY COVID
         link: https://github.com/stayawayinesctec/stayaway-app/pulls?q=author%3Adiogotcorreia
         description: "Dark Mode"
@@ -82,6 +85,12 @@ sidebar:
       - name: Firefly-III
         link: https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia
         description: "Bug Fixes"
+      - name: BungeeCord
+        link: https://github.com/SpigotMC/BungeeCord/pulls?q=author%3Adiogotcorreia
+        description: "Bug Fixes"
+      - name: automatic-timezoned
+        link: https://github.com/maxbrunet/automatic-timezoned/pulls?q=author%3Adiogotcorreia
+        description: "New Features"
   misc: []
 
 sections:
