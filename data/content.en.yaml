@@ -18,12 +18,14 @@ sidebar:
           rating: 4
         - name: React
           rating: 4
-        - name: NodeJS & Express
+        - name: NodeJS (& Express)
           rating: 4
         - name: HTML/CSS
           rating: 4
         - name: Java
           rating: 4
+        - name: Nix (& Nixpkgs/NixOS)
+          rating: 3
         - name: Python
           rating: 3
         - name: Vue
