@@ -210,7 +210,7 @@ sections:
         An online voting platform used by the Técnico Lisboa's Pedagogical
         Council for delegate elections, made with Rust and Axum.rs for the
         backend, and Typescript and React.js for the frontend.
-        It integrate's with the school's OAuth system and avoids storing
+        It integrates with the school's OAuth system and avoids storing
         personal information at all costs.
   extracurriculars:
     - name: Member of Security Team @ Técnico (STT)
