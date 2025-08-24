@@ -62,7 +62,7 @@
   dates: dates-helper(start-date: "Sep 2024", end-date: "Jan 2025"),
 )
 // - Researched the impacts and prevalence of client-side *prototype pollution* in JavaScript on various websites
-- Developed a Chromium fork to detect available *prototype pollution* gadgets when visiting a vulnerable website
+- Developed a Chromium fork to detect *prototype pollution* gadgets when visiting a vulnerable website, using dynamic analysis
 
 #work(
   title: "Full Stack Developer (Research Initiation Grant)",
