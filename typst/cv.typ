@@ -37,7 +37,7 @@
 #edu(
   institution: "KTH Royal Institute of Technology",
   location: "Stockholm, Sweden",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "July 2025"),
+  dates: dates-helper(start-date: "Aug 2023", end-date: "Oct 2025"),
   degree: "Master's of Science, Cybersecurity (TCYSM)",
 )
 - Master Thesis: "Uncovering Class Pollution In Python"
