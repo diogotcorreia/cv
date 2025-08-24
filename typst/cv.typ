@@ -134,9 +134,9 @@
   dates: dates-helper(start-date: "Sep 2022", end-date: "Present"),
 )
 - Represented Portugal at the European Cybersecurity Challenge (#link("https://ecsc.eu/")[ECSC]) in 2024,
-  and was nominated for
+  and nominated for
   #link("https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/international-cybersecurity-challenge-icc")[Team Europe]
-  in 2025
+  Cohort 2025
 - Member of Security Team \@ Técnico (#link("https://sectt.github.io/")[STT]) and
   #link("https://royalroppers.team/")[RoyalRoppers]
 - Interested in web exploitation challenges, in particular client-side XS-Leaks vulnerabilities
