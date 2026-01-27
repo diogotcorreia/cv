@@ -60,6 +60,15 @@
 == Work Experience
 
 #work(
+  title: "Penetration Tester",
+  location: "Remote",
+  company: "Ethiack",
+  dates: dates-helper(start-date: "Nov 2024", end-date: "Present"),
+)
+- Conducted penetration testing for Ethiack's customers,
+  finding high-severity vulnerabilities and proposing mitigations
+
+#work(
   title: "Research Assistant (Amanuensis)",
   location: "Stockholm, Sweden",
   company: "LangSec Group, KTH Royal Institute of Technology",
