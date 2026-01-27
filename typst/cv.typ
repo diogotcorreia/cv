@@ -40,16 +40,18 @@
   institution: "KTH Royal Institute of Technology",
   location: "Stockholm, Sweden",
   dates: dates-helper(start-date: "Aug 2023", end-date: "Oct 2025"),
-  degree: "Master's of Science, Cybersecurity (TCYSM)",
+  degree: "Master of Science, Cybersecurity (TCYSM)",
 )
-- Master Thesis: "Uncovering Class Pollution In Python"
-- Took courses in Network & Systems Security, Cryptography, Ethical Hacking, and Language Based Security
+- Master's Thesis: #link("https://s.diogotc.com/thesis")["Classa: Uncovering Class Pollution In Python"],
+  resulting in the reporting of critical-severity
+  #link("https://github.com/advisories/GHSA-mw26-5g2v-hqw3")[CVE-2025-58367]
+// - Courses in Network & Systems Security, Cryptography, Ethical Hacking, and Language Based Security, among others
 
 #edu(
   institution: "Instituto Superior Técnico",
   location: "Lisbon, Portugal",
   dates: dates-helper(start-date: "Sept 2020", end-date: "July 2023"),
-  degree: "Bachelor's of Science, Computer Science and Engineering (LEIC-A)",
+  degree: "Bachelor of Science, Computer Science and Engineering (LEIC-A)",
 )
 - Final Grade: 19/20 | Awarded Academic Excellence Diploma | Top 3 of graduating students in programme
 - Elected Year Delegate (2020 -- 2023) and Degree Delegate (2022 -- 2023), representing the programme's students
