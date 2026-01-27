@@ -129,12 +129,11 @@
   as concepts such as network security, software packaging, infrastructure-as-code, database administration,
   and DevSecOps
 
-#project(
-  name: "Open Source",
-)
+#project(name: "Open Source")
 - Contributed to many open source projects, such as
   #link("https://github.com/NixOS/nixpkgs/pulls?q=author%3Adiogotcorreia")[nixpkgs],
   #link("https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia")[Strapi],
+  #link("https://github.com/immich-app/immich/pulls?q=author%3Adiogotcorreia")[Immich],
   #link("https://github.com/vuejs/vuepress/pulls?q=author%3Adiogotcorreia")[Vuepress],
   #link("https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia")[Firefly-III],
   and more
