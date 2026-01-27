@@ -19,19 +19,21 @@
   personal-info-position: center,
 )
 
+#set document(title: name + "'s CV")
+
 /*
-* Lines that start with == are formatted into section headings
-* You can use the specific formatting functions if needed
-* The following formatting functions are listed below
-* #edu(dates: "", degree: "", gpa: "", institution: "", location: "", consistent: false)
-* #work(company: "", dates: "", location: "", title: "")
-* #project(dates: "", name: "", role: "", url: "")
-* certificates(name: "", issuer: "", url: "", date: "")
-* #extracurriculars(activity: "", dates: "")
-* There are also the following generic functions that don't apply any formatting
-* #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
-* #generic-one-by-two(left: "", right: "")
-*/
+ * Lines that start with == are formatted into section headings
+ * You can use the specific formatting functions if needed
+ * The following formatting functions are listed below
+ * #edu(dates: "", degree: "", gpa: "", institution: "", location: "", consistent: false)
+ * #work(company: "", dates: "", location: "", title: "")
+ * #project(dates: "", name: "", role: "", url: "")
+ * certificates(name: "", issuer: "", url: "", date: "")
+ * #extracurriculars(activity: "", dates: "")
+ * There are also the following generic functions that don't apply any formatting
+ * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
+ * #generic-one-by-two(left: "", right: "")
+ */
 == Education
 
 #edu(
