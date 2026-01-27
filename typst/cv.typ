@@ -93,9 +93,9 @@
   name: "Linux Install Party",
   dates: "2021, 2022",
 )
-- Co-organised an event to get 50+ students at the university to install Linux for the first time, along with a dozen
+- Co-organised events to get 50+ students at the university to install Linux for the first time, along with a dozen
   other volunteers
-- Helped students with troubleshooting installation problems and more complex installation scenarios
+// - Helped students with troubleshooting installation problems and more complex installation scenarios
 
 #project(
   name: "Resumos LEIC",
@@ -103,10 +103,9 @@
   url: "resumos.leic.pt",
   dates: dates-helper(start-date: "Feb 2021", end-date: "Present"),
 )
-- Created a website dedicated to the collaborative elaboration of class notes focused on the courses
-  in the curriculum of the BSc in Computer Science and Engineering at Técnico Lisboa, improving the academic
-  performance of students
-- The website regularly gets *40k+ monthly views* and has more than 60 contributors
+- Created a website dedicated to the collaborative writing of class notes focused on the courses
+  in the curriculum of the BSc in Computer Science at Técnico Lisboa,
+  which regularly gets *30k+ monthly views* and has more than 60 contributors
 
 #project(
   name: "Triton",
@@ -121,10 +120,10 @@
   name: "Self-Hosting",
   dates: dates-helper(start-date: "2017", end-date: "Present"),
 )
-- Maintaining 6 NixOS servers, both on-premise and in the cloud, with *20+ services* such as
+- Maintaining 6 infrastructure-as-code NixOS servers, both on-premise and in the cloud, with *20+ services* such as
   file storage, e-mail, SSO, LDAP, an overlay VPN network (Nebula), and home automation, complete with
   monitoring, alerts and backups
-- Using a Linux server as a router at home, configured with iptables firewall, 4 VLANs, DHCP server and
+- Using a NixOS server as a router at home, configured with iptables firewall, 4 VLANs, DHCP server, and
   DNS over HTTPS proxy
 - Gained deep knowledge in administrating Linux systems, in particular tools such as Docker and Systemd, as well
   as concepts such as network security, software packaging, infrastructure-as-code, database administration,
@@ -148,7 +147,9 @@
 )
 - Represented Portugal at the European Cybersecurity Challenge (#link("https://ecsc.eu/")[ECSC]) in 2024 & 2025;
   nominated for
-  #link("https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/international-cybersecurity-challenge-icc")[Team Europe]
+  #link(
+    "https://www.enisa.europa.eu/topics/skills-and-competences/skills-development/international-cybersecurity-challenge-icc",
+  )[Team Europe]
   Cohort 2025
 - Member of Security Team \@ Técnico (#link("https://sectt.github.io/")[STT]) and
   #link("https://royalroppers.team/")[RoyalRoppers]
@@ -156,6 +157,5 @@
 
 == Skills
 - *Programming Languages*: Rust, Nix, JavaScript, Java, Python, HTML, CSS, C, SQL, Bash
-- *Technologies*: Git, Docker, Axum, Rocket-rs, React, Astro, NodeJS
-- *Linux Distributions*: NixOS, Arch, Debian-based
+- *Technologies*: Linux (NixOS, Arch, Debian-based), Git, Docker, Systemd, Axum, Rocket-rs, React, Astro, NodeJS
 - *Languages*: English (C1, IELTS Academic 8.0), Portuguese (Native), Swedish (A1)
