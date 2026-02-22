@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.4": *
+#import "@preview/basic-resume:0.2.9": *
 
 #let name = "Diogo Correia"
 #let email = "me@diogotc.com"
