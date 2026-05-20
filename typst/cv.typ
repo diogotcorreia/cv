@@ -114,6 +114,7 @@
 )
 - Developed a Minecraft plugin that intercepts network packets in order to translate messages to the player's
   language
+- Built an accompanying web interface using React and NodeJS, allowing server owners to easily manage their translations
 - Used by 200+ Minecraft servers, and sold more than 900 licenses since 2016
 
 #project(
@@ -125,9 +126,9 @@
   monitoring, alerts and backups
 - Using a NixOS server as a router at home, configured with iptables firewall, 4 VLANs, DHCP server, and
   DNS over HTTPS proxy
-- Gained deep knowledge in administrating Linux systems, in particular tools such as Docker and Systemd, as well
-  as concepts such as network security, software packaging, infrastructure-as-code, database administration,
-  and DevSecOps
+// - Gained deep knowledge in administrating Linux systems, in particular tools such as Docker and Systemd, as well
+//   as concepts such as network security, software packaging, infrastructure-as-code, database administration,
+//   and DevSecOps
 
 #project(name: "Open Source")
 - Contributed to many open source projects, such as
