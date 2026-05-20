@@ -60,7 +60,7 @@
 == Work Experience
 
 #work(
-  title: "Penetration Tester",
+  title: "Penetration Tester (Freelance)",
   location: "Remote",
   company: "Ethiack",
   dates: dates-helper(start-date: "Nov 2024", end-date: "Present"),
