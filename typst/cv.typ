@@ -155,6 +155,7 @@
 - Interested in web exploitation challenges, in particular client-side XS-Leaks vulnerabilities
 
 == Skills
-- *Programming Languages*: Rust, Nix, JavaScript, Java, Python, HTML, CSS, C, SQL, Bash
+
+- *Programming Languages*: Rust, Nix, TypeScript/JavaScript, Java, Python, HTML, CSS, C, SQL, Bash
 - *Technologies*: Linux (NixOS, Arch, Debian-based), Git, Docker, Systemd, Axum, Rocket-rs, React, Astro, NodeJS
 - *Languages*: English (C1, IELTS Academic 8.0), Portuguese (Native), Swedish (A1)
