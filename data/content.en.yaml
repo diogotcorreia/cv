@@ -14,6 +14,8 @@ sidebar:
       entry:
         - name: JavaScript
           rating: 5
+        - name: Nix (& Nixpkgs/NixOS)
+          rating: 5
         - name: Rust
           rating: 4
         - name: React
@@ -24,8 +26,6 @@ sidebar:
           rating: 4
         - name: Java
           rating: 4
-        - name: Nix (& Nixpkgs/NixOS)
-          rating: 3
         - name: Python
           rating: 3
         - name: Vue
@@ -63,12 +63,12 @@ sidebar:
   opensource:
     title: "Contributions in the following projects:"
     contributions:
-      - name: Strapi
-        link: https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia
-        description: "Small Enhancements, Bug Fixes, Security Vulnerability Patching, Translations"
       - name: Nixpkgs
         link: https://github.com/NixOS/nixpkgs/pulls?q=author%3Adiogotcorreia
         description: "Packaging, Bug Fixes, and more"
+      - name: Strapi
+        link: https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia
+        description: "Small Enhancements, Bug Fixes, Security Vulnerability Patching, Translations"
       - name: STAYAWAY COVID
         link: https://github.com/stayawayinesctec/stayaway-app/pulls?q=author%3Adiogotcorreia
         description: "Dark Mode"
