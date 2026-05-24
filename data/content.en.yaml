@@ -97,6 +97,13 @@ sidebar:
 
 sections:
   education:
+    - name: "Master's in Cybersecurity"
+      location: "KTH Royal Institute of Technology, Sweden"
+      date: "2023 - 2025"
+      description: |-
+        - Master's Thesis: [Classa: Uncovering Class Pollution In Python](https://s.diogotc.com/thesis),
+          resulting in the reporting of critical-severity [CVE-2025-58367](https://github.com/advisories/GHSA-mw26-5g2v-hqw3)
+        - Courses in Network & Systems Security, Cryptography, Ethical Hacking, and Language Based Security, among others
     - name: "Bachelor's in Computer Science and Engineering (LEIC-A)"
       location: "Técnico Lisboa, Portugal"
       date: "2020 - 2023"
@@ -108,10 +115,6 @@ sections:
         - Awarded [Academic Excellence Diploma (2022/2023)](/documents/academic_excellence_2022_2023_en.pdf)
         - Top 3 amongst students who enrolled in LEIC-A in 2020/2021 (out of ~180)
         - Member of the University's Pedagogic Council
-    - name: "Master's in Cybersecurity"
-      location: "KTH Royal Institute of Technology, Sweden"
-      date: "2023 - 2025 _(expected)_"
-      description: ""
   jobs:
     - name: |-
         Research Initiation Grant  

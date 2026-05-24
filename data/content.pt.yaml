@@ -97,6 +97,13 @@ sidebar:
 
 sections:
   education:
+    - name: "Mestrado em Cibersegurança"
+      location: "KTH Royal Institute of Technology, Suécia"
+      date: "2023 - 2025"
+      description: |-
+        - Tese de Mestrado: [Classa: Uncovering Class Pollution In Python](https://s.diogotc.com/thesis),
+          que resultou na publicação da vulnerabilidade crítica [CVE-2025-58367](https://github.com/advisories/GHSA-mw26-5g2v-hqw3)
+        - Unidades curriculares em Network & Systems Security, Cryptography, Ethical Hacking, e Language Based Security, entre outras
     - name: "Licenciatura em Engenharia Informática e de Computadores"
       location: "Instituto Superior Técnico, Lisboa"
       date: "2020 - 2023"
@@ -108,10 +115,6 @@ sections:
         - Premiado com [Diploma de Excelência Académica (2022/2023)](/documents/academic_excellence_2022_2023_pt.pdf)
         - Top 3 do curso entre alunos que ingressaram em 2020/2021 (entre ~180)
         - Membro do Conselho Pedagógico do IST
-    - name: "Mestrado em Cibersegurança"
-      location: "KTH Royal Institute of Technology, Suécia"
-      date: "2023 - 2025 _(esperado)_"
-      description: ""
   jobs:
     - name: >-
         Bolsa de Iniciação à Investigação  
