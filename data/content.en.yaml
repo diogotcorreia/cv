@@ -117,6 +117,21 @@ sections:
         - Member of the University's Pedagogic Council
   jobs:
     - name: |-
+        Penetration Tester  
+        _Freelance_
+      location: "Ethiack"
+      date: "Nov 2024 - Present"
+      description: |-
+        - Conducted penetration testing for Ethiack's customers, finding high-severity vulnerabilities and proposing mitigations.
+    - name: |-
+        Research Assistant  
+        _Amanuensis_
+      location: "LangSec Group, KTH Royal Institute of Technology"
+      date: "Sep 2024 - Jan 2025"
+      description: |-
+        - Researched the impacts and prevalence of client-side prototype pollution in JavaScript on various websites
+        - Developed a Chromium fork to detect prototype pollution gadgets when visiting a vulnerable website, using dynamic analysis
+    - name: |-
         Research Initiation Grant  
         _Full Stack Developer_
       location: "DASI, IST, Lisboa"

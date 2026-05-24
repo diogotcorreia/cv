@@ -116,6 +116,21 @@ sections:
         - Top 3 do curso entre alunos que ingressaram em 2020/2021 (entre ~180)
         - Membro do Conselho Pedagógico do IST
   jobs:
+    - name: |-
+        Penetration Tester  
+        _Freelance_
+      location: "Ethiack"
+      date: "Nov 2024 - Present"
+      description: |-
+        - Realização de penetration testing a clientes da Ethiack, resultando na descoberta de vulnerabilidades de alta severidade e na sua mitigação.
+    - name: |-
+        Research Assistant  
+        _Amanuensis_
+      location: "LangSec Group, KTH Royal Institute of Technology"
+      date: "Sep 2024 - Jan 2025"
+      description: |-
+        - Investigação dos impactos e da prevalência de client-side prototype pollution em JavaScript em vários websites
+        - Desenvolvimento de uma fork do Chromium para detetar prototype pollution gadgets durante a visita de um website vulnerável, através de dynamic analysis
     - name: >-
         Bolsa de Iniciação à Investigação  
         _Full Stack Developer_
