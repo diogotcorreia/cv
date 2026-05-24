@@ -238,6 +238,9 @@ sections:
     - name: Membro do núcleo RoyalRoppers no KTH
       link: https://royalroppers.team/
       icon: "fa-solid fa-user-secret"
+    - name: Representante de Portugal no ECSC 2024 e 2025
+      link: https://ecsc.eu/
+      icon: "fa-solid fa-flag"
     - name: Instrutor de Informática I e Web I no AfterSchool by TreeTree2
       link: https://treetree2.school/
       icon: "fa-solid fa-chalkboard-user"
