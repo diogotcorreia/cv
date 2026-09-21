@@ -60,6 +60,15 @@
 == Work Experience
 
 #work(
+  title: "Rust Software Engineer: PDF Forms (Freelance)",
+  location: "Remote",
+  company: [Typst (#link("https://typst.app")[typst.app])],
+  dates: dates-helper(start-date: "Aug 2026", end-date: "Nov 2026"),
+)
+- Currently implementing interactive PDF forms in the Typst open-source compiler,
+  a project with 50k+ stars on GitHub
+
+#work(
   title: "Penetration Tester (Freelance)",
   location: "Remote",
   company: "Ethiack",
@@ -84,8 +93,8 @@
   dates: dates-helper(start-date: "Apr 2021", end-date: "July 2024"),
 )
 - Maintained the school's learning management system (Java, Vue) and adjacent systems, used daily by *10k+ students*
-- Developed a new version of Técnico's public API, complete with a spec-compliant OpenAPI reference and extensive
-  documentation, allowing students and faculty to build new applications around it
+// - Developed a new version of Técnico's public API, complete with a spec-compliant OpenAPI reference and extensive
+//   documentation, allowing students and faculty to build new applications around it
 
 == Projects
 
@@ -152,7 +161,7 @@
   Cohort 2025
 - Member of Security Team \@ Técnico (#link("https://sectt.github.io/")[STT]) and
   #link("https://royalroppers.team/")[RoyalRoppers]
-- Interested in web exploitation challenges, in particular client-side XS-Leaks vulnerabilities
+// - Interested in web exploitation challenges, in particular client-side XS-Leaks vulnerabilities
 
 == Skills
 
