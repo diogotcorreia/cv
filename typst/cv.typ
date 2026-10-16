@@ -102,7 +102,7 @@
   name: "Linux Install Party",
   dates: "2021, 2022",
 )
-- Co-organised events to get 50+ students at the university to install Linux for the first time, along with a dozen
+- Co-organised events to get 50+ students at Técnico to install Linux for the first time, co-supervising a dozen
   other volunteers
 // - Helped students with troubleshooting installation problems and more complex installation scenarios
 
