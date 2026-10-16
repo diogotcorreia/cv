@@ -99,6 +99,28 @@
 == Projects
 
 #project(
+  name: "Self-Hosting",
+  dates: dates-helper(start-date: "2017", end-date: "Present"),
+)
+- Maintaining 6 infrastructure-as-code NixOS servers, both on-premise and in the cloud, with *20+ services* such as
+  file storage, e-mail, SSO, LDAP, an overlay VPN network (Nebula), and home automation, complete with
+  monitoring, alerts and backups
+- Using a NixOS server as a router at home, configured with iptables firewall, 4 VLANs, DHCP server, and
+  DNS over HTTPS proxy
+- Gained deep knowledge in administrating Linux systems, in particular tools such as Docker and Systemd, as well
+  as concepts such as network security, software packaging, infrastructure-as-code, database administration,
+  and DevSecOps
+
+#project(name: "Open Source")
+- Contributed to many open source projects, such as
+  #link("https://github.com/NixOS/nixpkgs/pulls?q=author%3Adiogotcorreia")[nixpkgs]
+  (#link("https://github.com/NixOS/nixpkgs-committers")[committer] privileges),
+  #link("https://github.com/immich-app/immich/pulls?q=author%3Adiogotcorreia")[Immich],
+  #link("https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia")[Strapi],
+  #link("https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia")[Firefly-III],
+  and more
+
+#project(
   name: "Linux Install Party",
   dates: "2021, 2022",
 )
@@ -124,28 +146,6 @@
 - Developed a Minecraft plugin that intercepts network packets in order to translate messages to the player's
   language
 - Used by 200+ Minecraft servers, and sold more than 1000 licenses since 2016
-
-#project(
-  name: "Self-Hosting",
-  dates: dates-helper(start-date: "2017", end-date: "Present"),
-)
-- Maintaining 6 infrastructure-as-code NixOS servers, both on-premise and in the cloud, with *20+ services* such as
-  file storage, e-mail, SSO, LDAP, an overlay VPN network (Nebula), and home automation, complete with
-  monitoring, alerts and backups
-- Using a NixOS server as a router at home, configured with iptables firewall, 4 VLANs, DHCP server, and
-  DNS over HTTPS proxy
-- Gained deep knowledge in administrating Linux systems, in particular tools such as Docker and Systemd, as well
-  as concepts such as network security, software packaging, infrastructure-as-code, database administration,
-  and DevSecOps
-
-#project(name: "Open Source")
-- Contributed to many open source projects, such as
-  #link("https://github.com/NixOS/nixpkgs/pulls?q=author%3Adiogotcorreia")[nixpkgs]
-  (#link("https://github.com/NixOS/nixpkgs-committers")[committer] privileges),
-  #link("https://github.com/strapi/strapi/pulls?q=author%3Adiogotcorreia")[Strapi],
-  #link("https://github.com/immich-app/immich/pulls?q=author%3Adiogotcorreia")[Immich],
-  #link("https://github.com/firefly-iii/data-importer/pulls?q=author%3Adiogotcorreia")[Firefly-III],
-  and more
 
 == Extracurricular Activities
 
