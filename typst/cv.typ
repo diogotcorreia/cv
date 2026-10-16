@@ -123,7 +123,7 @@
 )
 - Developed a Minecraft plugin that intercepts network packets in order to translate messages to the player's
   language
-- Used by 200+ Minecraft servers, and sold more than 900 licenses since 2016
+- Used by 200+ Minecraft servers, and sold more than 1000 licenses since 2016
 
 #project(
   name: "Self-Hosting",
